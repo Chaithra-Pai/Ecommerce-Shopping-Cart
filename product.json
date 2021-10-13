@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "sys": {"id": "1"},
+      "fields":{
+        "title":  "money plant",
+        "price": 100.00,
+        "image": {"fields": {"file": { "url": "./images/plant-1.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id": "2"},
+      "fields":{
+        "title":  "rose",
+        "price": 150.00,
+        "image": {"fields": {"file": { "url": "./images/plant-2.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id": "3"},
+      "fields":{
+        "title":  "dahlia",
+        "price": 200.00,
+        "image": {"fields": {"file": { "url": "./images/plant-3.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id": "4"},
+      "fields":{
+        "title":  "cape jasmine",
+        "price": 250.00,
+        "image": {"fields": {"file": { "url": "./images/plant-4.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id": "5"},
+      "fields":{
+        "title":  "krishna tulasi",
+        "price": 150.00,
+        "image": {"fields": {"file": { "url": "./images/plant-5.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id": "6"},
+      "fields":{
+        "title":  "bell pepper",
+        "price": 240.00,
+        "image": {"fields": {"file": { "url": "./images/plant-6.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id": "7"},
+      "fields":{
+        "title":  "chlorophytum",
+        "price": 250.00,
+        "image": {"fields": {"file": { "url": "./images/plant-7.jpg"}}}
+      }
+    },
+    {
+      "sys": {"id": "8"},
+      "fields":{
+        "title":  "syngonium",
+        "price": 260.00,
+        "image": {"fields": {"file": { "url": "./images/plant-8.jpg"}}}
+      }
+    }
+  ]
+
+}

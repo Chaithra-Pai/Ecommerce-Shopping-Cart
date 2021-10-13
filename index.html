@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Sasya Sanjeevini</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-center">
+      <span class="nav-icon">
+        <i class="fas fa-bars"></i>
+      </span>
+      <div class="logo-text">
+        <img class="logo" src="images/logo.png" alt="Sasya Sanjeevini" onClick='window.location="#home"'>
+        <p>SASYA SANJEEVINI</p>
+      </div>
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <i class="fas fa-cart-plus"></i>
+        </span>
+        <div class="cart-items">0</div>
+      </div>
+    </div>
+  </nav>
+  </section>
+  <!-- End of Navbar -->
+
+  <!-- Main Bar -->
+  <section id="home">
+
+    <header class="header-banner">
+      <div class="banner">
+        <h1 class="banner-title">The World of Plants</h1>
+        <!-- <button class="banner-btn" onClick='window.location="#products-section"'>Shop Now</button> -->
+        <button class="banner-btn">
+          <a href="#products-section">Shop Now</a>
+        </button>
+
+
+      </div>
+    </header>
+  </section>
+  <!-- End of Main Bar -->
+
+  <!-- Features -->
+  <section class="features">
+    <div class="single-feature">
+      <i class="fas fa-seedling fa-4x fa-icon"></i>
+      <span class="feature-header"><strong>NURSERY PLANTS</strong></span>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
+    </div>
+    <div class="single-feature">
+      <i class="fas fa-tools fa-4x fa-icon"></i>
+      <span class="feature-header"><strong>NURSERY TOOLS</strong></span>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
+    </div>
+    <div class="single-feature">
+      <i class="fas fa-ellipsis-h fa-4x fa-icon"></i>
+      <span class="feature-header"><strong>GARDENING TIPS</strong></span>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <div class="image fade">
+      <img src="garden-img/img1.jpg" alt="Image" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="garden-img/img2.jpg" alt="Image" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="garden-img/img3.jpg" alt="Image" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="garden-img/img4.jpg" alt="Image" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="garden-img/img5.jpg" alt="Image" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="garden-img/img6.jpg" alt="Image" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="garden-img/img7.jpg" alt="Image" width="100%">
+    </div>
+    <div class="image fade">
+      <img src="garden-img/img8.jpg" alt="Image" width="100%">
+    </div>
+
+    <i id="prev" onclick="show_image(-1)" class="fas fa-angle-left fa-3x"></i>
+    <i id="next" onclick="show_image(1)" class="fas fa-angle-right fa-3x"></i>
+
+    <div class="dots">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+
+  <!-- Products -->
+  <section class="products" id="products-section">
+    <div class="section-title">
+      <h2>Our Products</h2>
+    </div>
+    <div class="products-center">
+      <!-- single product -->
+      <!-- <article class="product">
+          <div class="img-container">
+            <img src="images/plant-1.jpg" alt="plant" class="product-img">
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>Add to Bag
+            </button>
+          </div>
+          <h3>Money Plant</h3>
+          <h4>₹ 100</h4>
+        </article> -->
+  </section>
+  <!-- End of products -->
+
+  <!-- Cart -->
+  <div class="cart-overlay">
+    <div class="cart">
+      <span class="close-cart">
+        <i class="fas fa-window-close"></i>
+      </span>
+      <h2>Your Cart</h2>
+      <div class="cart-content">
+        <!-- cart item -->
+        <!-- <div class="cart-item">
+            <img src="images/plant-1.jpg" alt="plant">
+            <div>
+              <h4>Money Plant</h4>
+              <h5>₹ 100</h5>
+              <span class="remove-item">Remove</span>
+            </div> -->
+        <!-- <div>
+              <i class="fas fa-chevron-up"></i>
+              <p class="item-amount">1</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>-->
+      </div>
+
+      <div class="cart-footer">
+        <h3>Your Total: ₹ <span class="cart-total">0</span></h3>
+        <button class="clear-cart banner-btn">Clear Cart</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="bottom-container">
+    <p class="copyright">© 2021 Chaithra Pai.</p>
+  </div>
+
+  <!-- Contentful -->
+  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+  <script src="app.js" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    var scroll = new SmoothScroll('a[href*="#"]', {	speed: 600  });
+  </script>
+</body>
+
+</html>
