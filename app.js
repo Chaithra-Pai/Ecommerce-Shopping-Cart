@@ -2,7 +2,7 @@ const client = contentful.createClient({
   // This is the space ID. A space is like a project folder in Contentful terms
   space: "3bt37yqx1awk",
   // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
-  accessToken: "m01bkj7cdPjQJpvTj4cBB0WtLXltD4B5ZG3K6bUFoXg"
+  accessToken: "abcdxyz"
 });
 
 const cartBtn = document.querySelector('.cart-btn');
